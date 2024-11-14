@@ -1,0 +1,17 @@
+# Ignore everything by default
+*
+
+# Allow specific file types
+!.gitignore
+!*.ipynb
+!*.config
+!*.py
+!*.R
+!*.r
+!*.sh
+
+# Allow directories (required to traverse folders and add files selectively)
+!*/
+
+# Ignore all .ipynb_checkpoints folders
+.ipynb_checkpoints/
